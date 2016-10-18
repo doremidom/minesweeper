@@ -1,0 +1,33 @@
+body{
+	font-family: Courier;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.square{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid darkgray;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	color: black;
+}
+.container{
+	width: 360px;
+	height: 360px;
+	margin: auto;
+}
+img {
+	max-width: 35px;
+	height: auto;
+}
+.square.flagged{
+	background-image: url('flag.jpg');
+	background-size: cover;  
+}
+.square.revealed{
+	background-color: darkgray;
+}
